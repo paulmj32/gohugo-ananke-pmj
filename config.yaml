@@ -32,3 +32,10 @@ params:
   recent_posts_number: 3
   site_logo: ''
   text_color: ''
+
+## Added from check_site() recommendations
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
