@@ -1,35 +1,35 @@
-title: Notre-Dame de Paris
+title: STATWISE
 baseURL: 'https://gohugo-ananke-pmj.netlify.app'
 languageCode: en-us
 theme: gohugo-theme-ananke
-resourceDir: ../resources
+resourceDir: ./resources
 DefaultContentLanguage: en
 SectionPagesMenu: main
-Paginate: 3
+Paginate: 5
 googleAnalytics: ''
 enableRobotsTXT: yes
 languages:
   en:
     contentDir: content/en
-    title: Ananke
+    title: STATWiSE 
     weight: 1
-  fr:
-    contentDir: content/fr
-    title: Ananke Fr
-    weight: 2
+  # fr:
+  #   contentDir: content/fr
+  #   title: Ananke Fr
+  #   weight: 2
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
 params:
-  ananke_socials:
-    - name: twitter
-      url: https://twitter.com/GoHugoIO
+  # ananke_socials:
+  #   - name: twitter
+  #     url: https://twitter.com/GoHugoIO
   author: ''
   background_color_class: bg-black
   description: The last theme you'll ever need. Maybe.
   favicon: ''
-  recent_posts_number: 3
+  recent_posts_number: 1
   site_logo: ''
   text_color: ''
 
